@@ -15,6 +15,9 @@
 		9390016E1D06CA3900BF8CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9390016C1D06CA3900BF8CA3 /* LaunchScreen.storyboard */; };
 		939001791D06CA3900BF8CA3 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939001781D06CA3900BF8CA3 /* ________Tests.m */; };
 		939001841D06CA3900BF8CA3 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939001831D06CA3900BF8CA3 /* ________UITests.m */; };
+		9390019D1D06CA5A00BF8CA3 /* SMTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 939001951D06CA5A00BF8CA3 /* SMTopWindow.m */; };
+		9390019E1D06CA5A00BF8CA3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 939001971D06CA5A00BF8CA3 /* UIColor+Hex.m */; };
+		9390019F1D06CA5A00BF8CA3 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 939001991D06CA5A00BF8CA3 /* UIView+XMGExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		9390017F1D06CA3900BF8CA3 /* 个人整理的工具类UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人整理的工具类UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		939001831D06CA3900BF8CA3 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		939001851D06CA3900BF8CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939001941D06CA5A00BF8CA3 /* SMTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTopWindow.h; sourceTree = "<group>"; };
+		939001951D06CA5A00BF8CA3 /* SMTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTopWindow.m; sourceTree = "<group>"; };
+		939001961D06CA5A00BF8CA3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		939001971D06CA5A00BF8CA3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		939001981D06CA5A00BF8CA3 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		939001991D06CA5A00BF8CA3 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		9390015D1D06CA3900BF8CA3 /* 个人整理的工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				939001911D06CA4200BF8CA3 /* category */,
 				939001611D06CA3900BF8CA3 /* AppDelegate.h */,
 				939001621D06CA3900BF8CA3 /* AppDelegate.m */,
 				939001641D06CA3900BF8CA3 /* ViewController.h */,
@@ -138,6 +148,19 @@
 				939001851D06CA3900BF8CA3 /* Info.plist */,
 			);
 			path = "个人整理的工具类UITests";
+			sourceTree = "<group>";
+		};
+		939001911D06CA4200BF8CA3 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				939001941D06CA5A00BF8CA3 /* SMTopWindow.h */,
+				939001951D06CA5A00BF8CA3 /* SMTopWindow.m */,
+				939001961D06CA5A00BF8CA3 /* UIColor+Hex.h */,
+				939001971D06CA5A00BF8CA3 /* UIColor+Hex.m */,
+				939001981D06CA5A00BF8CA3 /* UIView+XMGExtension.h */,
+				939001991D06CA5A00BF8CA3 /* UIView+XMGExtension.m */,
+			);
+			name = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				939001661D06CA3900BF8CA3 /* ViewController.m in Sources */,
+				9390019E1D06CA5A00BF8CA3 /* UIColor+Hex.m in Sources */,
+				9390019F1D06CA5A00BF8CA3 /* UIView+XMGExtension.m in Sources */,
 				939001631D06CA3900BF8CA3 /* AppDelegate.m in Sources */,
 				939001601D06CA3900BF8CA3 /* main.m in Sources */,
+				9390019D1D06CA5A00BF8CA3 /* SMTopWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
